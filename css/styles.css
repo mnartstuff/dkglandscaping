@@ -168,3 +168,10 @@ footer {
     }
 
 }
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+}
