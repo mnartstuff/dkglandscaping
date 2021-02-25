@@ -1,0 +1,170 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3rem;
+    padding: 2.5rem 0;
+}
+
+p {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #196117;
+    padding: 1.5rem 7% .7rem;
+}
+
+/* CAROUSEL */
+
+
+/* DESCRIPTION */
+
+#description {
+    background-color: #196117;
+    padding: 7% 20%;
+    color: #ffffff;
+    letter-spacing: 1.2px;
+}
+
+
+
+/* SERVICES */
+
+#services {
+    padding: 7% 15%;
+    text-align: center;
+    color: #724351;
+}
+
+.service-box {
+    margin-bottom: 2.5rem;
+}
+
+.service-box img {
+    width: 100%;
+}
+
+.service-box h3 {
+    padding-top: 1rem;
+}
+
+
+/* SEPTIC MOUND */
+
+#septicMound {
+    position: relative;
+    color: #fff;
+    height: 40vw;
+}
+
+#septicMound::before {
+    background-image: url(../images/septicMound.png);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    content: "";
+    height: 40vw;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -10;
+}
+
+.septicText {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    padding: 15px;
+    background-color: #7b1a37c2;
+    letter-spacing: 1.2px;
+}
+
+
+/* Values */
+
+#values {
+    padding: 7% 15%;
+    text-align: center;
+    color: #7b1a37;
+}
+
+#values p {
+    text-align: left;
+}
+
+.values-column {
+    padding: 3% 2%;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #196117;
+    color: #fff;
+  }
+  
+  footer a {
+    margin: 0 15px;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+
+  footer a:hover {
+      color: rgb(134, 134, 134);
+  }
+  
+  footer p {
+    padding: 25px;
+    font-size: 1rem;
+
+  }
+
+
+
+/* MEDIA QUERIES */
+
+@media all and (max-width: 720px) {
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .septicText {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+}
